@@ -1,0 +1,15 @@
+{
+    "hasDirectories": true,
+    "list": [
+        {
+            "key": "EC2",
+            "directory": "ec2",
+            "description": "Control all your EC2 instances and EBS volumes"
+        },
+        {
+            "key": "S3",
+            "directory": "s3",
+            "description": "Manage all your S3 data lake of objects and buckets"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "hasDirectories": true,
+    "list": [
+        {
+            "key": "Instances",
+            "directory": "instances",
+            "description": "Create, start, stop and terminate your EC2 instances with ease"
+        },
+        {
+            "key": "EBS",
+            "directory": "ebs",
+            "description": "Now create, attach, detach and delete your EBS volumes effortlessly"
+        },
+        {
+            "key": "KeyPairs",
+            "directory": "keypairs",
+            "description": "Create, list and delete keypairs"
+        }
+    ]
+}

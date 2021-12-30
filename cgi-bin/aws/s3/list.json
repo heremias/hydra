@@ -1,0 +1,127 @@
+{
+    "hasDirectories": false,
+    "groups": [
+        "All"
+    ],
+    "list": [
+        {
+            "key": "create a bucket",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "bucket_name",
+                    "name": "Bucket name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "region",
+                    "name": "Bucket region",
+                    "type": "",
+                    "default": "us-east-1"
+                }
+            ]
+        },
+        {
+            "key": "delete bucket",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "bucket_name",
+                    "name": "Bucket name",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "list buckets",
+            "group": "All",
+            "inputs": []
+        },
+        {
+            "key": "upload files to bucket",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "path",
+                    "name": "File path",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "bucket_name",
+                    "name": "Bucket name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "obj_name",
+                    "name": "Object name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "public",
+                    "name": "Make object public[y/n]: ",
+                    "type": "",
+                    "default": "n"
+                }
+            ]
+        },
+        {
+            "key": "download files from bucket",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "bucket_name",
+                    "name": "Bucket name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "obj_name",
+                    "name": "Object name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "path",
+                    "name": "File path",
+                    "type": "",
+                    "default": "."
+                }
+            ]
+        },
+        {
+            "key": "list files in bucket",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "bucket_name",
+                    "name": "Bucket name",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "delete file in bucket",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "bucket_name",
+                    "name": "Bucket name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "obj_name",
+                    "name": "Object name",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "hasDirectories": false,
+    "groups": [
+        "All"
+    ],
+    "list": [
+        {
+            "key": "launch Instances",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "subnet",
+                    "name": "Subnet ID",
+                    "type": "",
+                    "default": "subnet-fbf33f90"
+                },
+                {
+                    "variable": "name",
+                    "name": "Name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "ami",
+                    "name": "AMI ID",
+                    "type": "",
+                    "default": "ami-05d72852800cbf29e"
+                },
+                {
+                    "variable": "instance_type",
+                    "name": "Instance Type",
+                    "type": "",
+                    "default": "t2.micro"
+                },
+                {
+                    "variable": "keypair",
+                    "name": "keypair name",
+                    "type": "",
+                    "default": "None"
+                },
+                {
+                    "variable": "sg_id",
+                    "name": "Security Group ID",
+                    "type": "",
+                    "default": "sg-05c3a93cc0e64f1c2"
+                },
+                {
+                    "variable": "count",
+                    "name": "Number of instances",
+                    "type": "",
+                    "default": 1
+                }
+            ]
+        },
+        {
+            "key": "list Instances",
+            "group": "All",
+            "inputs": []
+        },
+        {
+            "key": "stop Instances",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "instance_id",
+                    "name": "Instance id",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "start Instances",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "instance_id",
+                    "name": "Instance id",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "terminate Instance",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "instance_id",
+                    "name": "Instance id",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "get instance details",
+            "group": "All",
+            "inputs": [
+                {
+                    "variable": "instance_id",
+                    "name": "Instance id",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        }
+    ]
+}

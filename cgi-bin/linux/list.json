@@ -1,0 +1,113 @@
+{
+    "hasDirectories": false,
+    "groups": [
+        "All",
+        "Common Commands",
+        "Sys Info",
+        "Misc."
+    ],
+    "list": [
+        {
+            "key": "create a directory",
+            "group": "Common Commands",
+            "inputs": [
+                {
+                    "variable": "name",
+                    "name": "Directory name:",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "display working directory",
+            "group": "Common Commands",
+            "inputs": []
+        },
+        {
+            "key": "display ip address",
+            "group": "Sys Info",
+            "inputs": []
+        },
+        {
+            "key": "display date",
+            "group": "Common Commands",
+            "inputs": []
+        },
+        {
+            "key": "display calender",
+            "group": "Common Commands",
+            "inputs": []
+        },
+        {
+            "key": "create alias",
+            "group": "Common Commands",
+            "inputs": [
+                {
+                    "variable": "name",
+                    "name": "Alias name",
+                    "type": "",
+                    "default": ""
+                },
+                {
+                    "variable": "cmd",
+                    "name": "Command",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "install pkg",
+            "group": "Common Commands",
+            "inputs": [
+                {
+                    "variable": "name",
+                    "name": "Package name",
+                    "type": "",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "key": "display the info of current user",
+            "group": "Sys Info",
+            "inputs": []
+        },
+        {
+            "key": "display cpu details",
+            "group": "Sys Info",
+            "inputs": []
+        },
+        {
+            "key": "shutdown",
+            "group": "Misc.",
+            "inputs": []
+        },
+        {
+            "key": "reboot",
+            "group": "Misc.",
+            "inputs": []
+        },
+        {
+            "key": "display current memory usage",
+            "group": "Sys Info",
+            "inputs": []
+        },
+        {
+            "key": "display running process",
+            "group": "Sys Info",
+            "inputs": []
+        },
+        {
+            "key": "display open ports",
+            "group": "Sys Info",
+            "inputs": []
+        },
+        {
+            "key": "display disk usage",
+            "group": "Sys Info",
+            "inputs": []
+        }
+    ]
+}
